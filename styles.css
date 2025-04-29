@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, li, td { 
+    font-family: "Outfit";
+    font-size: 16px;
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+
+}
+
+.instructions-list li::marker{
+    font-weight: bold;
+}
+
+ul, ol{
+    margin-top: 15px;
+}
+
+.heading{
+    font-family: "Young Serif";
+    color: hsl(14, 45%, 36%);
+}
+
+
+body{
+    background-color: #f3e5d8;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 36%;
+    height: 200vh;
+    margin: 90px auto;
+    border-radius: 24px;
+    display:flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.img-container{
+    width: 100%;
+    height: 270px;
+    background-color: #f3e5d8;
+    border-radius: 24px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Recipe Header */
+.recipe-header{
+    margin-top: 15px;
+}
+
+.recipe-header h1{
+    font-size: 36px;
+}
+
+.recipe-header p{
+    margin-top: 15px;
+}
+
+/* Preparation time*/
+
+.prep-container{
+    width: 100%;
+    height: 150px;
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 30px;
+    border-radius: 24px;
+
+}
+
+/* Ingredients */
+.ingredients{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+}
+
+.instructions-list li {
+  margin-bottom: 1rem;
+}
+
+
+
+/* Instruction */
+.instructions{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Nutrition */
+.nutrition{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nutrition h2{
+    margin-bottom: 15px
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+.nutrition-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+  
+.nutrition-table td:first-child {
+    font-weight: normal;
+}
+  
+.nutrition-table td:last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%); /* match strong color used in instructions */
+}
+  
